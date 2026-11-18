@@ -1,0 +1,27 @@
+{
+  "name": "mailbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.3.0",
+    "he": "^1.2.0",
+    "iconv-lite": "^0.7.3",
+    "imapflow": "^2.12.1",
+    "libqp": "^3.0.2",
+    "mailparser": "^3.14.5",
+    "multer": "^2.5.0",
+    "nodemailer": "^10.6.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}
